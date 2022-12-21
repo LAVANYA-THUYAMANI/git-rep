@@ -1,0 +1,33 @@
+.m-header {
+    text-align: center;
+    padding-block: 32px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #67A7FF 0%, #4D88FC 49.48%, #3F77E8 100%);
+}
+
+    .m-header__welcome {
+        display: block;
+        letter-spacing: 0.04em;
+        font-size: 14px;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+
+    .m-header__title {
+        margin-block: 4px 8px;
+    }
+
+    .m-header__pvt-ltd {
+        display: block;
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+@media screen and (min-width: 768px) {
+    /* iPad portrait */
+
+    .m-header {
+        padding-block: 120px;
+    }
+}
+    
